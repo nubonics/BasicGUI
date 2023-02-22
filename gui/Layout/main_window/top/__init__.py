@@ -8,7 +8,9 @@ class Top(QWidget):
         widget = QWidget()
         widget.setStyleSheet(
             """
-            background-color: gray;
+            background-color: #343434;
+            border-top-left-radius : 10px;
+            border-top-right-radius : 10px;
             """
         )
 
